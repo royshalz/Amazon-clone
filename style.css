@@ -137,7 +137,7 @@ span{
 
 /**"hero-section"**/
 .hero-section{
-  background-image: url(./image/hero_image.jpg);
+  background-image: url("./image/hero_image.jpg");
   height: 380px;
   background-size: cover;
   display: flex;
@@ -227,6 +227,7 @@ ul a{
     color: white;
     border-top: 0.5px solid white;
     height: 70px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -236,6 +237,7 @@ ul a{
     background-size: cover;
     height: 50px;
     width:100px;
+    
 }
 .foot-panel4{
     background-color: #0f1111;
